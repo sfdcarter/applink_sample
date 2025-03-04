@@ -1,1 +1,1 @@
-web: heroku-integration-service-mesh uvicorn app:app --host=0.0.0.0 --port 3000
+web: heroku-integration-service-mesh uvicorn main:app --host=0.0.0.0 --port 3000
