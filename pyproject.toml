@@ -6,8 +6,5 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "fastapi[standard]>=0.115.11",
-    "salesforce-sdk",
+    "heroku_applink",
 ]
-
-[tool.uv.sources]
-salesforce-sdk = { git = "https://github.com/heroku/salesforce-sdk-python" }

@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from salesforce_sdk import IntegrationAsgiMiddleware, client_context
+from heroku_applink import IntegrationAsgiMiddleware, client_context
 
 app = FastAPI()
 app.add_middleware(IntegrationAsgiMiddleware)
