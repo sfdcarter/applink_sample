@@ -1,0 +1,13 @@
+[project]
+name = "new-applink-sample"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.115.11",
+    "salesforce-sdk",
+]
+
+[tool.uv.sources]
+salesforce-sdk = { git = "https://github.com/heroku/salesforce-sdk-python" }
