@@ -542,7 +542,7 @@ wheels = [
 [[package]]
 name = "salesforce-sdk"
 version = "0.1.0"
-source = { git = "https://github.com/heroku/salesforce-sdk-python#06946982e1c43fbde96585729467b9f9d745195c" }
+source = { git = "https://github.com/heroku/salesforce-sdk-python#7c8090196d0dacf835edf8d2e0f115452cf60f95" }
 dependencies = [
     { name = "aiohttp" },
     { name = "orjson" },

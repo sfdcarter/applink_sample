@@ -31,7 +31,7 @@ python-multipart==0.0.20
 pyyaml==6.0.2
 rich==13.9.4
 rich-toolkit==0.13.2
-salesforce-sdk @ git+https://github.com/heroku/salesforce-sdk-python@06946982e1c43fbde96585729467b9f9d745195c
+salesforce-sdk @ git+https://github.com/heroku/salesforce-sdk-python@7c8090196d0dacf835edf8d2e0f115452cf60f95
 shellingham==1.5.4
 sniffio==1.3.1
 starlette==0.46.0
